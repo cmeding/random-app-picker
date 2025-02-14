@@ -1,6 +1,5 @@
 import java.awt.Component;
 import javax.swing.JScrollPane;
-//?
 
 public class AppDisplay extends JScrollPane{
     private AppDisplayList a_list = null;

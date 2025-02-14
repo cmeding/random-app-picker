@@ -18,7 +18,6 @@ public class AppItem implements Serializable{
 
     @Override
     public String toString() {
-        //return file.toString();
         return app_name;
     }
 

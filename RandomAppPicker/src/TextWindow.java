@@ -36,9 +36,9 @@ public class TextWindow extends JDialog{
         upper.setText(upper_text);
 
         upper.setHorizontalAlignment(SwingConstants.CENTER);
-        upper.setEditable(false); // ✅ Prevent editing
-        upper.setBorder(null);    // ✅ Removes border for a cleaner look
-        upper.setOpaque(false);   // ✅ Makes background transparent
+        upper.setEditable(false);
+        upper.setBorder(null);
+        upper.setOpaque(false);
         
         upper.setAlignmentX(Component.CENTER_ALIGNMENT);
         
@@ -48,25 +48,11 @@ public class TextWindow extends JDialog{
         lower.setText(lower_text);
 
         lower.setHorizontalAlignment(SwingConstants.CENTER);
-        lower.setEditable(false); // ✅ Prevent editing
-        lower.setBorder(null);    // ✅ Removes border for a cleaner look
-        lower.setOpaque(false);   // ✅ Makes background transparent
+        lower.setEditable(false);
+        lower.setBorder(null);
+        lower.setOpaque(false);
         
         lower.setAlignmentX(Component.CENTER_ALIGNMENT);
-
-
-        
-        //text.setBounds(0,0,sWIDTH,sHEIGHT/2);
-
-        //text.setVerticalAlignment(SwingConstants.CENTER);
-
-        //text.setLineWrap(true);
-        //text.setWrapStyleWord(true);
-
-        //StyledDocument doc = text.getStyledDocument();
-        //SimpleAttributeSet center = new SimpleAttributeSet();
-        //StyleConstants.setAlignment(center, StyleConstants.ALIGN_CENTER);
-        //doc.setParagraphAttributes(0, doc.getLength(), center, false);
         
         JButton confirm = new JButton("OK");
         confirm.setBounds(sWIDTH/3,sHEIGHT/6 + sHEIGHT/2 ,sWIDTH/3,sHEIGHT/6);

@@ -77,9 +77,6 @@ public class MainWindow extends JFrame{
         fileRow.setBackground(BGCOLOR);
 
         JScrollPane apps = new JScrollPane();
-        //apps.setViewportView(new AppDisplayList());
-
-        //COL_LIST = new CollectionList();
         COL_LIST.addListSelectionListener(new ListSelectionListener() {
             @Override
             public void valueChanged(ListSelectionEvent e) {
